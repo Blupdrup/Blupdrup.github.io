@@ -1,14 +1,36 @@
 body {
-    background-color: #DDDDFF;
-    align-items: center;
+    background-color: #1D243E;
+    text-align: center;
+    align-content: center;
 }
 
-h1 {
-    color: blue;
+#main-head {
+    color: #5F74C9;
+    font-size: 100px;
+    text-shadow: 0 0 50px #738DF5, 5px 5px #5D678F;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p {
-    color: red;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+@keyframes fade {
+    0% {opacity: 0};
+    25% {opacity: 25};
+    50% {opacity: 50};
+    100% {opacity: 100};
+}
+
+.center {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    border: 5px solid #5D678F;
+    border-radius: 25px;
+    color: #738DF5;
+    background-color: #5D678F;
+    align-self: center;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
