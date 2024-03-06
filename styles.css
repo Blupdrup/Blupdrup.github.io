@@ -3,9 +3,11 @@ body {
 }
 
 h1 {
-color: blue;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
-color: red;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
